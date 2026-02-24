@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header style="display: flex; align-items: center; justify-content: space-between; padding: 15px; background: #ff69b4 ; color: rgb(0, 255, 255);">
+        <nav>
+            <img src="logo.png" alt="logo" width="600" height="600">
+            <a href="index.html">Home</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section>
+        <h2>ini section</h2>
+        <h2>Form Input Mahasiswa</h2>
+        <form action="submit.php" method="post" target="_blank">
+            <label for="nama">Nama: </label>
+            <input type="text" name="nama" id="nama" placeholder="Masukkan Nama"><br><br>
+            
+            <label for="npm">NPM: </label>
+            <input type="number" name="npm" id="npm" placeholder="Masukkan NPM"><br><br>
+
+            <label for="npm">Kelas: </label>
+            <select name="kelas" id="kelas">
+                <option value="kelas" selected_disabled>Pilih kelas</option>
+                <option value="kelas">A</option>
+                <option value="kelas">B</option>
+            </select><br><br>
+
+            <label for="tanggal">Tanggal: </label>
+            <input type="date" name="tanggal" id="tanggal" placeholder="Masukkan Tanggal"><br><br>
+
+            <label for="waktu">Waktu: </label>
+            <input type="time" name="waktu" id="waktu"><br><br>
+
+            <button type="submit" value="submit">submit</button><br><br>
+        </form>
+        
+    </section>
+
+    <footer>
+        <p>ini footer</p>
+    </footer>
+
+</body>
+</html>
